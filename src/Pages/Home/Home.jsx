@@ -8,16 +8,20 @@ import logo from "../../assets/Logo+Heart+Wrap+Black.png";
 const Home = () => {
   return (
     <div>
-      <section>
-        <div className="absolute text-center">
-          <h1 className="text-2xl lg:text-7xl font-bold text-white">
-            FALL IN LOVE WITH OUR
-            <br />
-            WAFFLE
-          </h1>
+      <div>
+        <div className="absolute w-full h-full flex justify-center items-center">
+          <div className="">
+            <h1 className="text-2xl lg:text-7xl font-bold text-white text-center">
+              FALL IN LOVE WITH OUR
+              <br />
+              WAFFLE
+            </h1>
+          </div>
         </div>
-        <img src={banner} />
-      </section>
+        <div className="h-screen">
+          <img className="h-full object-fill w-full" src={banner} />
+        </div>
+      </div>
       <section className="max-w-5xl mx-auto  flex flex-col lg:flex-row my-10">
         <div className="w-3/5 mx-auto">
           <h1 className="text-xl lg:text-3xl text-justify lg:text-start font-bold pb-10 uppercase">
@@ -46,7 +50,7 @@ const Home = () => {
           <p className="text-base pb-2 text-center lg:text-start">
             At XO Waffle, we add a delicious mixture of toppings with some of
             our original signature sauces and syrups, giving off a New Mexican
-            twist to give you an experience you 'll fall in love.
+            twist to give you an experience you will fall in love.
           </p>
           <p className="text-base pb-2 text-center lg:text-start">
             Come, fall in love with our waffle!
@@ -134,7 +138,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="max-w-5xl mx-auto">
+      <section id="menu" className="max-w-5xl mx-auto">
         <div className="mt-4">
           <img className="h-32 mx-auto " src={logo} />
         </div>
@@ -182,7 +186,7 @@ const Home = () => {
               </p>
             </div>
             <div className="ms-4 lg:ms-0">
-              <h1 className="text-lg font-bold ">I'm Bananas for You</h1>
+              <h1 className="text-lg font-bold ">I am Bananas for You</h1>
               <p>
                 breaded chicken with your choice of XO sauce or spicy maple
                 syrup, topped with green onions

@@ -26,13 +26,7 @@ const Header = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100  w-96"
             >
               <li>
-                <a>HOME</a>
-              </li>
-              <li>
                 <a>XO-WAFFEL</a>
-              </li>
-              <li>
-                <a>MENU</a>
               </li>
             </ul>
           </div>
@@ -43,16 +37,10 @@ const Header = () => {
 
         <div className="hidden lg:flex justify-center">
           <ul className="flex gap-10 text-white items-center p-3">
-            <li className="text-2xl font-bold">
-              <a>HOME</a>
-            </li>
             <li>
               <a>
-                <img className="h-36" src={logo} />
+                <img className="h-20" src={logo} />
               </a>
-            </li>
-            <li className="text-2xl font-bold">
-              <a>MENU</a>
             </li>
           </ul>
         </div>

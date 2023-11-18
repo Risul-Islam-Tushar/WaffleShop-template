@@ -1,0 +1,6 @@
+.bannerimg {
+  background-image: url("../../assets/banner.jfif");
+  height: 700px;
+  width: 100%;
+  object-fit: fill;
+}
